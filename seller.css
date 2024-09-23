@@ -1,0 +1,15 @@
+body{
+    width: 100%;
+    display: block;
+    min-height: auto;
+    padding: 0 5vw;
+    position: relative;
+    font-family: roboto, sans-serif;
+
+}
+
+.logo{
+    margin: 20px auto 50px;
+}
+
+/* become seller element */

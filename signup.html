@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing: Create Account</title> <!-- Corrected title -->
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <img src="img/dark-logo.png" class="logo" alt="Company Logo">
+        <div>
+            <input type="text" autocomplete="off" id="name" placeholder="Name" aria-label="Name" required>
+            <input type="email" autocomplete="off" id="email" placeholder="Email" aria-label="Email" required>
+            <input type="password" autocomplete="off" id="password" placeholder="Password" aria-label="Password" required>
+            <input type="text" autocomplete="off" id="number" placeholder="Phone Number" aria-label="Phone Number" required>
+            <input type="checkbox" checked class="checkbox" id="terms-and-cond" required>
+            <label for="terms-and-cond">Agree to our <a href="">terms and conditions</a></label> <!-- Corrected space after "terms" -->
+            <br>
+            <input type="checkbox" class="checkbox" id="notification">
+            <label for="notification">Receive upcoming offers and event emails</label> <!-- Corrected capitalization -->
+            <button class="submit-btn">Create Account</button> <!-- Adjusted button text capitalization -->
+        </div>
+        <a href="/login" class="link">Already have an account? Log in here</a> <!-- Adjusted link text capitalization -->
+    </div>
+    <script src="token.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>
